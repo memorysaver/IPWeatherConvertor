@@ -1,0 +1,14 @@
+-r project.in
+-r test.in
+
+python-dotenv~=0.6.4
+
+# Support for Spacemacs
+pylint
+flake8
+autoflake
+jedi>=0.9.0
+json-rpc>=1.8.1
+service_factory>=0.1.5
+yapf
+futures

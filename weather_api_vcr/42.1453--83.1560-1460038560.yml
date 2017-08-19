@@ -1,0 +1,24 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.18.1]
+    method: GET
+    uri: https://api.darksky.net/forecast/580dd9d0eddd4219f6d0f446c7990ec3/42.1453,-83.1560,1460038560?exclude=minutely,hourly,daily
+  response:
+    body: {string: '{"latitude":42.1453,"longitude":-83.156,"timezone":"America/Detroit","offset":-4,"currently":{"time":1460038560,"summary":"Clear","icon":"clear-day","precipIntensity":0.0055,"precipProbability":0.31,"precipType":"rain","temperature":40.46,"apparentTemperature":34.3,"dewPoint":35.88,"humidity":0.84,"windSpeed":9.79,"windBearing":286,"visibility":8.98,"pressure":997.36},"flags":{"sources":["isd"],"isd-stations":["712980-99999","713030-99999","715380-99999","720113-54829","725370-94847","725373-54819","725374-94889","725375-14822","725376-14853","725377-14804","725418-54823","995016-99999","997219-99999","997295-99999","997344-99999","997996-99999"],"units":"us"}}'}
+    headers:
+      Cache-Control: [max-age=3600]
+      Connection: [keep-alive]
+      Content-Length: ['669']
+      Content-Type: [application/json; charset=utf-8]
+      Date: ['Sat, 22 Jul 2017 01:57:43 GMT']
+      Expires: ['Sat, 22 Jul 2017 02:57:43 +0000']
+      Server: [nginx]
+      X-Forecast-API-Calls: ['17']
+      X-Response-Time: [40.439ms]
+    status: {code: 200, message: OK}
+version: 1

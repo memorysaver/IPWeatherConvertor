@@ -1,0 +1,24 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.18.1]
+    method: GET
+    uri: https://api.darksky.net/forecast/580dd9d0eddd4219f6d0f446c7990ec3/39.6878,-82.6046,1460379600?exclude=minutely,hourly,daily
+  response:
+    body: {string: '{"latitude":39.6878,"longitude":-82.6046,"timezone":"America/New_York","offset":-4,"currently":{"time":1460379600,"summary":"Drizzle","icon":"rain","precipIntensity":0.0166,"precipProbability":0.41,"precipType":"rain","temperature":51.53,"apparentTemperature":51.53,"dewPoint":44.27,"humidity":0.76,"windSpeed":12.51,"windBearing":205,"visibility":8.98,"pressure":1013.81},"flags":{"sources":["isd"],"isd-stations":["720397-00131","720414-00139","720414-99999","720651-00232","720651-99999","720928-00315","724280-14821","724284-63825","724285-13812","724286-93824","724288-04804","724294-53844","724295-63888","725229-04858","742079-63876","999999-54851"],"units":"us"}}'}
+    headers:
+      Cache-Control: [max-age=3600]
+      Connection: [keep-alive]
+      Content-Length: ['671']
+      Content-Type: [application/json; charset=utf-8]
+      Date: ['Sat, 22 Jul 2017 01:58:03 GMT']
+      Expires: ['Sat, 22 Jul 2017 02:58:03 +0000']
+      Server: [nginx]
+      X-Forecast-API-Calls: ['32']
+      X-Response-Time: [47.673ms]
+    status: {code: 200, message: OK}
+version: 1
